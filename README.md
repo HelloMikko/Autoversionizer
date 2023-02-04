@@ -1,6 +1,6 @@
-# vsCode AutoVersionizer
+# AutoVersionizer
 
-vsCode AutoVersionizer is a simple tool that saves you time when updating the versions of your app(s). Every time you press `ctrl + s` in Visual Studio Code (VSCode), the tab is saved as normal and the version number in the `package.json` file is automatically updated.
+AutoVersionizer is a simple tool that saves you time when updating the versions of your app(s). Every time you press `ctrl + s` in Visual Studio Code (VSCode), the tab is saved as normal and the version number in the `package.json` file is automatically updated.
 
 ## Installation and Usage
 
