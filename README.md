@@ -2,10 +2,8 @@
 
 AutoVersionizer is a simple tool that saves you time when updating the versions of your app(s). Every time you type `node update-version.js` in Visual Studio Code (VSCode), the tab is saved as normal and the version number in the `package.json` file is automatically updated.
 
-###### see video below
-<video width="320" height="240" controls><source src="https://awevideo.s3.amazonaws.com/video-14633323-e7b04947696da6b1e777665270deaf8e.webm?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20230208%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230208T081109Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=9f504e8de0c3c06107724b1df05b239a7d5c0f2ddf532dafc3c17bd0d530f573"  type="video/mp4">
-src="https://awevideo.s3.amazonaws.com/video-14633323-e7b04947696da6b1e777665270deaf8e.webm?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20230208%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230208T081109Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=9f504e8de0c3c06107724b1df05b239a7d5c0f2ddf532dafc3c17bd0d530f573"  type="video/ogg">
-</video>
+##### [see demo](https://www.awesomescreenshot.com/video/14633323?key=ca2d045019b44d14bd8ea1d81b7c0c1f)
+
 
 To auto update the version# in your electron package.json, create a file called `update-version.js`
 
