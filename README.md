@@ -25,9 +25,8 @@ fs.writeFileSync('./package.json', JSON.stringify(packageJson, null, 2));
 console.log(`Updated version number to ${packageJson.version}`);
 ```
 
-Next, You can add a simple snippet to your HTML at the bottom before the `</body>` tag page, like IE:
-
-<script>
+Next, You can add a simple snippet to your HTML at the bottom before the `</body>` tag page, using the tags `<script>THE CODE BELOW</script>` like IE:
+```
 // Fetch the JSON data from your package.json file
 fetch("./../package.json").then(response  =>  response.json()).then(data  => { // Get the version number from the data
 const  version  =  data.version;
@@ -39,7 +38,7 @@ const  versionDisplay  =  document.getElementById("version-display");
 // @ts-ignore
 versionDisplay.textContent  =  `The latest version: ${version}`;
 });
-</script>
+```
 
 
 Note, the API `fetch("./../package.json")` needs to make sure you have the right file path to your `package.json` file in order to read the version info, usually that would be somehwhere on lines 2-4. Mine is normally on line 3, which it should not matter if it was on line 200, as long as the word `"Version:"` is what it sniffs for.
